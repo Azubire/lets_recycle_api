@@ -118,7 +118,7 @@ const getMetrics = async (req, res) => {
     res.send({ error: false, message: "success", data });
   } catch (error) {
     console.log(error);
-    res.send({ error: true, message: "failed" });
+    res.send({ error: true, message: "failed", err: error });
   }
 };
 
