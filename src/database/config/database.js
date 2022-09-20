@@ -2,10 +2,10 @@ require("dotenv").config();
 
 module.exports = {
   development: {
-    username: "freedb_azubire",
-    password: "!Zav4kTjjDYk5pE",
-    database: "freedb_letsrecycle",
-    host: "sql.freedb.tech",
+    username: "sql8521159",
+    password: "q8IB1dAKPG",
+    database: "sql8521159",
+    host: "sql8.freemysqlhosting.net",
     port: 3306,
     dialect: "mysql",
   },
