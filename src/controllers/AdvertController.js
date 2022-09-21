@@ -105,7 +105,7 @@ const destroy = async (req, res) => {
   try {
     const data = await Advert.findOne({ where: { id: id } });
     await data.destroy();
-    res.send({ error: false, messahe: "deleted succesfully" });
+    res.send({ error: false, message: "deleted succesfully" });
   } catch (error) {
     res.send({ error: true, message: "something went wrong" });
   }

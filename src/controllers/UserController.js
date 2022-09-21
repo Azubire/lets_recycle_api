@@ -42,6 +42,7 @@ const getUser = async (req, res) => {
     });
     console.log("user", user);
     const newUser = await user.getAdverts({
+      order: [["createdAt", "DESC"]],
       attributes: [
         "id",
         "title",
