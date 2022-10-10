@@ -2,10 +2,14 @@ require("dotenv").config();
 
 module.exports = {
   development: {
-    username: "sql8521159",
-    password: "q8IB1dAKPG",
-    database: "sql8521159",
+    username: "sql8525401",
+    password: "EHbtEZW7Kc",
+    database: "sql8525401",
     host: "sql8.freemysqlhosting.net",
+    // username: "root",
+    // password: "",
+    // database: "lets_recycle",
+    // host: "localhost",
     port: 3306,
     dialect: "mysql",
   },
